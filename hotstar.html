@@ -3,19 +3,87 @@
 <head>
   <title>HotStar</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
-
+<div class="navbar">
+<div class="nav-logo">
+    <a href="#"><img class="brand-logo" src="hottsar.svg" alt="Hotstar"></a>
+</div>
 <ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#about">HotStar</a></li>
-  <li><a href="#news">Tv</a></li>
-  <li><a href="#contact">Movies</a></li>
-  <li><a href="#about">Sports</a></li>
+  <li>
+    <div class="dropdown"> 
+        <a href="#contact">TV</a>
+        <div class="dropdown-content">
+            <a href="#about">HotStar Specials</a>
+            <a href="#about">StarPlus</a>
+            <a href="#about">Star Jhalsa</a>
+            <a href="#about">Star Vijay</a>
+            <a href="#about">Star Bharat</a>
+            <a href="#about">Life Ok</a>
+            <a href="#about">Asianet</a>
+            <a href="#about">Star Ma</a>
+            <a href="#about">more...</a>
+        </div>
+    </div>
+  </li>
+
+
+  <li>
+      <div class="dropdown"> 
+          <a href="#contact">Movies</a>
+          <div class="dropdown-content">
+              <a href="#about">Hindi</a>
+              <a href="#about">Bengali</a>
+              <a href="#about">Telugu</a>
+              <a href="#about">Malayalam</a>
+              <a href="#about">Tamil</a>
+              <a href="#about">Marati</a>
+              <a href="#about">English</a>
+              <a href="#about">Marathi</a>
+              <a href="#about">Gujarati</a>
+          </div>
+      </div>
+  </li>
+  <li>
+    <div class="dropdown"> 
+      <a href="#contact">Sports</a>
+      <div class="dropdown-content">
+          <a href="#about">Cricket</a>
+          <a href="#about">kabaddi</a>
+          <a href="#about">Football</a>
+          <a href="#about">Tennis</a>
+          <a href="#about">Badminton</a>
+          <a href="#about">Formula 1</a>
+          <a href="#about">Table Tennis</a>
+          <a href="#about">eSports</a>
+          <a href="#about">Marital Arts</a>
+          <a href="#about">Hockey</a>
+          <a href="#about">Athletics</a>
+          <a href="#about">Golf</a>
+          <a href="#about">Swimming</a>
+          <a href="#about">Boxing</a>
+          <a href="#about">Water Sports</a>
+      </div>
+  </div>
+    
+  </li>
   <li><a href="#about">News</a></li>
   <li><a href="#about">Premium</a></li>
 </ul>
+<div class="right">
+<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+<div class="user-profile">
+    <div class="signIn">LOG IN</div>
+</div>
+</div>
 
 </body>
 </html>
