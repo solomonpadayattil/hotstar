@@ -71,13 +71,67 @@ li a:hover {
 .user-profile .signIn {
     /* float: right; */
     font-size: 16px;
+    cursor: pointer;
+    padding-top: 16px;
+    margin-left: 15px;
+}
+
+.right{
+    float:right;
+}
+ .search-container {
+    position: relative;
+    top: 0;
+    float: right;
+    margin: 0;
+    z-index: 1;
+ }
+
+ .search-container input {
+    position: absolute;
+    right: -10px;
+    top: 14px;
+    width: 240px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.14);
+    color: #212121;
+    font-size: 16px;
+    outline: 0;
+    padding: 0 28px 0 0;
+}
+
+.search-container .searchIcon {
+    display: inline-block;
+    position: absolute;
+    top: 19px;
+    right: -10px;
+    pointer-events: none;
+    height: 15px;
+    width: 16px;
+    opacity: .7;
+}
+ .user-profile {
+    position: relative;
+    top: 6px;
+    float: right;
+    margin: 0 0 0 54px;
+    padding-right: 20px;
+}
+
+.user-profile .signIn {
+    font-size: 16px;
     font-weight: 500;
+    text-transform: uppercase;
+    color: rgba(0,0,0,.7);
+    opacity: .7;
+    text-decoration: none;
     cursor: pointer;
     display: inline-block;
     padding: 12px 0 13px;
     margin-left: 15px;
 }
 
-.right{
-    float:right;
+.signIn:hover {
+color: black
 }
